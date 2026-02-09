@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
-    <div className="container mx-auto px-6 py-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 md:gap-12">
         {/* Brand */}
-        <div>
-          <h3 className="text-xl font-serif font-bold mb-4">Ubuntu Harvests</h3>
-          <p className="text-primary-foreground/80 text-sm leading-relaxed mb-4">
+        <div className="sm:col-span-2 lg:col-span-1">
+          <img 
+            src={logo} 
+            alt="Ubuntu Harvests Logo" 
+            className="h-10 sm:h-12 w-auto mb-3 sm:mb-4 brightness-0 invert"
+          />
+          <p className="text-primary-foreground/80 text-sm leading-relaxed mb-3 sm:mb-4">
             Connecting African farmers to global markets through ethical trade, sustainability,
             and community empowerment.
           </p>
@@ -63,12 +68,12 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="border-t border-primary-foreground/20 mt-12 pt-8">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-primary-foreground/60">
+      <div className="border-t border-primary-foreground/20 mt-8 sm:mt-12 pt-6 sm:pt-8">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-xs text-primary-foreground/60 text-center md:text-left">
           <p>© 2024 Ubuntu Harvests. All rights reserved.</p>
           <div className="text-center md:text-right">
-            <p>Ubuntu Harvests Ltd · Registered in England and Wales</p>
-            <p>Company No: 16793791 · Registered Office: Swansea, United Kingdom</p>
+            <p className="break-words">Ubuntu Harvests Ltd · Registered in England and Wales</p>
+            <p className="break-words">Company No: 16793791 · Registered Office: Swansea, United Kingdom</p>
           </div>
         </div>
       </div>

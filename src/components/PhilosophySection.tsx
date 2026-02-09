@@ -25,29 +25,29 @@ const values = [
 ];
 
 const PhilosophySection = () => (
-  <section className="py-24 bg-card">
-    <div className="container mx-auto px-6">
+  <section className="py-16 sm:py-24 bg-card">
+    <div className="container mx-auto px-4 sm:px-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="text-center max-w-2xl mx-auto mb-16"
+        className="text-center max-w-2xl mx-auto mb-12 sm:mb-16"
       >
-        <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground mb-3 sm:mb-4">
           The Ubuntu Philosophy
         </h2>
-        <blockquote className="text-xl italic text-earth font-serif mb-6">
+        <blockquote className="text-lg sm:text-xl italic text-earth font-serif mb-4 sm:mb-6">
           "I am because we are."
         </blockquote>
-        <p className="text-muted-foreground leading-relaxed">
+        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed px-4">
           Ubuntu is an African philosophy that shapes everything we do — from ethical sourcing
           and shared prosperity to environmental responsibility and farmer empowerment. It is the
           belief that our humanity is bound together.
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
         {values.map((v, i) => (
           <motion.div
             key={v.title}
