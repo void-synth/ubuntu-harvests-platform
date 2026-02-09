@@ -51,7 +51,7 @@ const Contact = () => {
                 </h3>
                 <p className="text-muted-foreground text-sm mb-2">No. 5, Ojoo, Oyo State, Nigeria</p>
                 <a
-                  href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
+                  href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE, WHATSAPP_NUMBER)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground text-sm flex items-center gap-2 hover:text-primary transition-colors min-h-[44px]"
@@ -79,7 +79,7 @@ const Contact = () => {
                 <h3 className="font-serif text-base sm:text-lg font-semibold text-foreground mb-2 flex items-center gap-2">
                   <Mail className="w-5 h-5 text-primary shrink-0" /> Email
                 </h3>
-                <a href="mailto:ubuntuharvests@gmail.com" className="text-muted-foreground text-sm hover:text-primary transition-colors break-all">
+                <a href="mailto:ubuntuharvests@gmail.com" className="text-muted-foreground text-sm hover:text-primary transition-colors break-all word-break">
                   ubuntuharvests@gmail.com
                 </a>
               </div>

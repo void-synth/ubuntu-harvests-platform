@@ -61,19 +61,24 @@ const Footer = () => (
             Contact
           </h4>
           <div className="space-y-2 text-sm text-primary-foreground/80">
-            <p>ubuntuharvests@gmail.com</p>
-            <p>🇳🇬 +234 816 507 3846</p>
-            <p>🇬🇧 +44 7401324679</p>
+            <p className="break-all">ubuntuharvests@gmail.com</p>
+            <p className="break-words">🇳🇬 +234 816 507 3846</p>
+            <p className="break-words">🇬🇧 +44 7401324679</p>
           </div>
         </div>
       </div>
 
       <div className="border-t border-primary-foreground/20 mt-8 sm:mt-12 pt-6 sm:pt-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-xs text-primary-foreground/60 text-center md:text-left">
-          <p>© 2024 Ubuntu Harvests. All rights reserved.</p>
-          <div className="text-center md:text-right">
-            <p className="break-words">Ubuntu Harvests Ltd · Registered in England and Wales</p>
-            <p className="break-words">Company No: 16793791 · Registered Office: Swansea, United Kingdom</p>
+          <p className="mb-2 md:mb-0">© 2024 Ubuntu Harvests. All rights reserved.</p>
+          <div className="text-center md:text-right space-y-1">
+            <p className="break-words px-2 md:px-0">Ubuntu Harvests Ltd · Registered in England and Wales</p>
+            <p className="break-words px-2 md:px-0">
+              <span className="block sm:inline">UK Company No: 16793791</span>
+              <span className="hidden sm:inline"> · </span>
+              <span className="block sm:inline">Nigeria Company No: 9121849</span>
+            </p>
+            <p className="break-words px-2 md:px-0">Registered Office: Swansea, United Kingdom</p>
           </div>
         </div>
       </div>

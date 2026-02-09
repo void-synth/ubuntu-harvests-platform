@@ -95,7 +95,7 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-card/98 backdrop-blur-lg shadow-lg border-b border-border/50"
-          : "bg-transparent"
+          : "bg-card/75 backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none"
       }`}
     >
       {/* Scroll progress indicator */}
@@ -173,14 +173,16 @@ const Header = () => {
             href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2.5 rounded-lg text-primary hover:bg-primary/10 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+            className="p-2.5 rounded-lg text-primary hover:bg-primary/20 bg-primary/10 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center shadow-sm"
             aria-label="Contact on WhatsApp"
           >
             <MessageCircle className="w-5 h-5" />
           </a>
-          <ThemeToggle />
+          <div className="p-2 rounded-lg bg-muted/40 hover:bg-muted/80 transition-colors shadow-sm">
+            <ThemeToggle />
+          </div>
           <button
-            className="p-2.5 rounded-lg text-foreground hover:bg-muted transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+            className="p-2.5 rounded-lg text-foreground hover:bg-muted/80 bg-muted/40 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center shadow-sm"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >

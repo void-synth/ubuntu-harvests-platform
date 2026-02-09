@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import founderImg from "@/assets/founder-portrait.jpg";
+import founderImg from "@/assets/founder.jpeg";
 
 const FounderSection = () => (
   <section className="py-16 sm:py-24 bg-card">

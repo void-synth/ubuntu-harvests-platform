@@ -4,7 +4,7 @@ export const WHATSAPP_NUMBER_UK = "+447401324679"; // UK number
 
 // Generate WhatsApp link with optional pre-filled message
 export const getWhatsAppLink = (message?: string, number?: string) => {
-  const phoneNumber = number || WHATSAPP_NUMBER;
+  const phoneNumber = number || WHATSAPP_NUMBER_UK; // Default to UK number for inquiries
   const baseUrl = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, "")}`;
   if (message) {
     return `${baseUrl}?text=${encodeURIComponent(message)}`;
