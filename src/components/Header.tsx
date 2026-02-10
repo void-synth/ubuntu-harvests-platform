@@ -198,7 +198,7 @@ const Header = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-card/98 backdrop-blur-lg border-t border-border overflow-hidden"
+            className="lg:hidden bg-card backdrop-blur-md border-t border-border overflow-hidden shadow-lg"
             aria-label="Mobile navigation"
           >
             <div className="container mx-auto px-4 py-4 flex flex-col gap-1">
