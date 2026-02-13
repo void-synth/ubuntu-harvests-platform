@@ -7,11 +7,13 @@ const Footer = () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 md:gap-12">
         {/* Brand */}
         <div className="sm:col-span-2 lg:col-span-1">
-          <img 
-            src={logo} 
-            alt="Ubuntu Harvests Logo" 
-            className="h-10 sm:h-12 w-auto mb-3 sm:mb-4 brightness-0 invert"
-          />
+          <Link to="/" className="inline-block mb-3 sm:mb-4">
+            <img 
+              src={logo} 
+              alt="Ubuntu Harvests Logo" 
+              className="h-10 sm:h-12 w-auto hover:opacity-90 transition-opacity"
+            />
+          </Link>
           <p className="text-primary-foreground/80 text-sm leading-relaxed mb-3 sm:mb-4">
             Connecting African farmers to global markets through ethical trade, sustainability,
             and community empowerment.
