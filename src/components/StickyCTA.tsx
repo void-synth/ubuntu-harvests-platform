@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, MessageSquare } from "lucide-react";
+import { X, Mail } from "lucide-react";
 import { getWhatsAppLink, DEFAULT_INQUIRY_MESSAGE } from "@/lib/whatsapp";
 
 const StickyCTA = () => {
@@ -40,7 +40,7 @@ const StickyCTA = () => {
         >
           <div className="bg-card border border-border rounded-2xl shadow-2xl p-3 sm:p-4 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-              <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-sm font-semibold text-foreground mb-1">
@@ -53,12 +53,10 @@ const StickyCTA = () => {
             <div className="flex items-center gap-2 w-auto sm:w-auto">
               <a
                 href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="p-2.5 sm:px-4 sm:py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity min-h-[44px] sm:min-h-0 flex items-center justify-center sm:gap-2 shrink-0"
                 aria-label="Contact Us"
               >
-                <MessageSquare className="w-5 h-5 sm:w-4 sm:h-4" />
+                <Mail className="w-5 h-5 sm:w-4 sm:h-4" />
                 <span className="hidden sm:inline">Contact Us</span>
               </a>
               <button

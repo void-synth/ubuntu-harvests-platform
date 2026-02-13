@@ -9,7 +9,7 @@ const products = [
   {
     name: "Hibiscus",
     img: hibiscusImg,
-    desc: "Premium dried hibiscus petals from Nigeria. Rich in antioxidants and vitamin C.",
+    desc: "Premium dried hibiscus petals from Africa. Rich in antioxidants and vitamin C.",
     fullDesc: "Our hibiscus (Hibiscus sabdariffa) is sourced from smallholder farms in Oyo and Kogi states, where the climate and soil conditions produce exceptionally vibrant, nutrient-rich petals. Each batch undergoes rigorous quality control to ensure optimal color, flavor, and nutritional content.",
     origin: "Oyo & Kogi States, Nigeria",
     season: "Year-round availability",
@@ -22,7 +22,7 @@ const products = [
     name: "Sesame Seeds",
     img: sesameImg,
     desc: "High oil content, premium quality sesame seeds.",
-    fullDesc: "Nigerian sesame seeds are renowned for their superior oil content (typically 50-55%) and distinctive nutty flavor. Our seeds are sourced from Benue, Nasarawa, and Jigawa states, where traditional farming methods combined with modern quality control ensure premium export-grade product.",
+    fullDesc: "African sesame seeds are renowned for their superior oil content (typically 50-55%) and distinctive nutty flavor. Our seeds are sourced from Benue, Nasarawa, and Jigawa states, where traditional farming methods combined with modern quality control ensure premium export-grade product.",
     origin: "Benue, Nasarawa & Jigawa States, Nigeria",
     season: "Harvest: October - December",
     certifications: "ISO 22000, Non-GMO verified",
@@ -34,7 +34,7 @@ const products = [
     name: "Cashew Nuts",
     img: cashewImg,
     desc: "Premium raw cashew nuts, international export grade.",
-    fullDesc: "Nigeria is one of the world's top cashew producers, and our raw cashew nuts meet the highest international standards. Sourced from Ogun, Enugu, and Kogi states, our cashews are carefully sorted, graded, and processed to ensure consistent quality for global buyers.",
+    fullDesc: "Africa is one of the world's top cashew producers, and our raw cashew nuts meet the highest international standards. Sourced from Ogun, Enugu, and Kogi states, our cashews are carefully sorted, graded, and processed to ensure consistent quality for global buyers.",
     origin: "Ogun, Enugu & Kogi States, Nigeria",
     season: "Harvest: February - May",
     certifications: "Fair Trade, Organic options available",
@@ -46,7 +46,7 @@ const products = [
     name: "Ginger",
     img: gingerImg,
     desc: "Fresh ginger root with high essential oil content.",
-    fullDesc: "Nigerian ginger is prized for its pungent flavor and high essential oil content (typically 2-3%). Our ginger is sourced from Kaduna, Gombe, and Benue states, where the arid climate produces ginger with exceptional flavor intensity and medicinal properties.",
+    fullDesc: "African ginger is prized for its pungent flavor and high essential oil content (typically 2-3%). Our ginger is sourced from Kaduna, Gombe, and Benue states, where the arid climate produces ginger with exceptional flavor intensity and medicinal properties.",
     origin: "Kaduna, Gombe & Benue States, Nigeria",
     season: "Harvest: November - March",
     certifications: "HACCP, GAP (Good Agricultural Practices)",
@@ -73,7 +73,7 @@ const ProductsSection = () => (
         </p>
         <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto px-4">
           Each product in our portfolio is carefully selected, rigorously tested, and sourced directly 
-          from trusted farming communities across Nigeria. We ensure every shipment meets the highest 
+          from trusted farming communities across Africa. We ensure every shipment meets the highest 
           international standards for quality, safety, and sustainability.
         </p>
       </motion.div>
@@ -122,8 +122,6 @@ const ProductsSection = () => (
               <div className="pt-3 sm:pt-4 border-t border-border">
                 <a
                   href={getWhatsAppLink(`Hi! I'm interested in ${p.name}. ${DEFAULT_INQUIRY_MESSAGE}`)}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full py-2.5 sm:py-3 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 min-h-[44px]"
                 >
                   Request Quote
@@ -142,7 +140,7 @@ const ProductsSection = () => (
         className="mt-8 text-center"
       >
         <span className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-muted text-muted-foreground text-sm font-medium">
-          🌴 Palm Oil — Coming Soon
+          🌴 Palm Oil Coming Soon
         </span>
       </motion.div>
     </div>

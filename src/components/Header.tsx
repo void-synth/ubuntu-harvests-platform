@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, Mail } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import ThemeToggle from "./ThemeToggle";
 import logo from "@/assets/logo.png";
@@ -157,11 +157,9 @@ const Header = () => {
         <div className="hidden lg:flex items-center gap-3">
           <a
             href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
-            target="_blank"
-            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 hover:shadow-md transition-all duration-200"
           >
-            <MessageCircle className="w-4 h-4" />
+            <Mail className="w-4 h-4" />
             <span>Contact</span>
           </a>
           <ThemeToggle />
@@ -171,12 +169,10 @@ const Header = () => {
         <div className="lg:hidden flex items-center gap-1.5 sm:gap-2">
           <a
             href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
-            target="_blank"
-            rel="noopener noreferrer"
             className="p-2.5 rounded-lg text-primary hover:bg-primary/20 bg-primary/10 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center shadow-sm"
-            aria-label="Contact on WhatsApp"
+            aria-label="Contact via Email"
           >
-            <MessageCircle className="w-5 h-5" />
+            <Mail className="w-5 h-5" />
           </a>
           <div className="p-2 rounded-lg bg-muted/40 hover:bg-muted/80 transition-colors shadow-sm">
             <ThemeToggle />
@@ -237,13 +233,11 @@ const Header = () => {
               })}
               <a
                 href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="mx-4 mt-2 inline-flex items-center justify-center gap-2 px-4 py-3.5 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity min-h-[44px]"
               >
-                <MessageCircle className="w-5 h-5" />
-                Contact on WhatsApp
+                <Mail className="w-5 h-5" />
+                Contact via Email
               </a>
             </div>
           </motion.nav>

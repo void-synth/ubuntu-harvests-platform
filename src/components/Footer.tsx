@@ -17,7 +17,7 @@ const Footer = () => (
             and community empowerment.
           </p>
           <p className="text-primary-foreground/60 text-xs italic">
-            "I am because we are" — Ubuntu Philosophy
+            "I am because we are" Ubuntu Philosophy
           </p>
         </div>
 
@@ -70,9 +70,9 @@ const Footer = () => (
 
       <div className="border-t border-primary-foreground/20 mt-8 sm:mt-12 pt-6 sm:pt-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-xs text-primary-foreground/60 text-center md:text-left">
-          <p className="mb-2 md:mb-0">© 2024 Ubuntu Harvests. All rights reserved.</p>
+          <p className="mb-2 md:mb-0">© 2025 Ubuntu Harvests. All rights reserved.</p>
           <div className="text-center md:text-right space-y-1">
-            <p className="break-words px-2 md:px-0">Ubuntu Harvests Ltd · Registered in England and Wales</p>
+            <p className="break-words px-2 md:px-0">Ubuntu Harvests Ltd · Registered in Nigeria, England and Wales</p>
             <p className="break-words px-2 md:px-0">
               <span className="block sm:inline">UK Company No: 16793791</span>
               <span className="hidden sm:inline"> · </span>

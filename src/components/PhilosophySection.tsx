@@ -5,7 +5,7 @@ const values = [
   {
     icon: Heart,
     title: "Ethical Sourcing",
-    desc: "Fair trade partnerships with trusted Nigerian farmers.",
+    desc: "Fair trade partnerships with trusted African farmers.",
   },
   {
     icon: Leaf,
@@ -41,7 +41,7 @@ const PhilosophySection = () => (
           "I am because we are."
         </blockquote>
         <p className="text-sm sm:text-base text-muted-foreground leading-relaxed px-4">
-          Ubuntu is an African philosophy that shapes everything we do — from ethical sourcing
+          Ubuntu is an African philosophy that shapes everything we do from ethical sourcing
           and shared prosperity to environmental responsibility and farmer empowerment. It is the
           belief that our humanity is bound together.
         </p>

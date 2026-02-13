@@ -5,8 +5,8 @@ const steps = [
   { 
     icon: Users, 
     title: "Partner with Vetted Farmers", 
-    desc: "We build long-term relationships with trusted Nigerian farming communities.",
-    details: "Our farmer network spans 8 states across Nigeria. Each farmer undergoes a vetting process that includes ethical labor practices verification, sustainable farming method assessment, and quality commitment evaluation. We provide training, fair pricing contracts, and direct market access."
+    desc: "We build long-term relationships with trusted African farming communities.",
+    details: "Our farmer network spans 8 states across Africa. Each farmer undergoes a vetting process that includes ethical labor practices verification, sustainable farming method assessment, and quality commitment evaluation. We provide training, fair pricing contracts, and direct market access."
   },
   { 
     icon: Search, 
@@ -29,8 +29,8 @@ const steps = [
   { 
     icon: Handshake, 
     title: "Long-Term Partnerships", 
-    desc: "We grow with our buyers — building trust through consistency.",
-    details: "We're not just suppliers — we're partners. We work with buyers to understand their needs, provide consistent quality, and grow together. Our relationships are built on transparency, reliability, and mutual success."
+    desc: "We grow with our buyers building trust through consistency.",
+    details: "We're not just suppliers we're partners. We work with buyers to understand their needs, provide consistent quality, and grow together. Our relationships are built on transparency, reliability, and mutual success."
   },
 ];
 
@@ -47,7 +47,7 @@ const ProcessSection = () => (
           How We Work
         </h2>
         <p className="text-sm sm:text-base text-secondary-foreground/70 max-w-xl mx-auto px-4">
-          From farm to port — a transparent, ethical supply chain you can trust.
+          From farm to port a transparent, ethical supply chain you can trust.
         </p>
       </motion.div>
 

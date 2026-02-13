@@ -7,7 +7,7 @@ const metrics = [
     icon: Users,
     value: "500+",
     label: "Farmers Supported",
-    description: "Smallholder farmers across 8 Nigerian states",
+    description: "Smallholder farmers across 8 African states",
     color: "text-primary",
   },
   {
@@ -109,10 +109,14 @@ const ImpactMetrics = () => {
           className="mt-16 text-center"
         >
           <p className="text-primary-foreground/80 italic max-w-2xl mx-auto">
-            "These numbers represent more than business metrics — they represent communities 
+            "These numbers represent more than business metrics they represent communities 
             transformed, children educated, and sustainable livelihoods created through ethical trade."
           </p>
-          <p className="text-sm text-primary-foreground/60 mt-4">— Ayodeji Ganiyu, Founder</p>
+          <p className="text-sm text-primary-foreground/60 mt-4">Ayodeji Ganiyu, Founder</p>
+          <p className="text-sm text-primary-foreground/70 mt-6 max-w-2xl mx-auto">
+            Note: Ubuntu Harvests is not yet profitable. We are building a sustainable business model 
+            that prioritizes farmer welfare and community impact over short-term profits.
+          </p>
         </motion.div>
       </div>
     </section>

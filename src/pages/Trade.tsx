@@ -7,7 +7,7 @@ const features = [
   {
     icon: Globe,
     title: "Global Export Markets",
-    desc: "We serve buyers across the United Kingdom, European Union, and United States with reliable, consistent supply of premium Nigerian agricultural produce.",
+    desc: "We serve buyers across the United Kingdom, European Union, and United States with reliable, consistent supply of premium African agricultural produce.",
   },
   {
     icon: Award,
@@ -22,7 +22,7 @@ const features = [
   {
     icon: Handshake,
     title: "Partnership Mindset",
-    desc: "We don't just sell produce — we build long-term commercial relationships grounded in trust, reliability, and shared growth.",
+    desc: "We don't just sell produce we build long-term commercial relationships grounded in trust, reliability, and shared growth.",
   },
 ];
 
@@ -40,11 +40,11 @@ const Trade = () => (
             Trade With Us
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground leading-relaxed mb-4 sm:mb-6 font-serif italic px-4">
-            Connecting Nigerian agricultural excellence with global markets
+            Connecting African agricultural excellence with global markets
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
-            Ubuntu Harvests is built for international B2B trade. We connect Nigerian agricultural
-            excellence with global demand — ethically, reliably, and at scale. Whether you're a food 
+            Ubuntu Harvests is built for international B2B trade. We connect African agricultural
+            excellence with global demand ethically, reliably, and at scale. Whether you're a food 
             processor, distributor, retailer, or manufacturer, we provide consistent, high-quality 
             agricultural products with full traceability and ethical sourcing guarantees.
           </p>
@@ -98,7 +98,7 @@ const Trade = () => (
               <div className="text-center">
                 <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary mb-2 sm:mb-3 font-serif">500+</div>
                 <p className="text-sm sm:text-base font-semibold text-foreground mb-1">Partner Farmers</p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Across 8 Nigerian states</p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Across 8 African states</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary mb-2 sm:mb-3 font-serif">15+</div>
@@ -132,8 +132,6 @@ const Trade = () => (
           </div>
           <a
             href={getWhatsAppLink(`I'm interested in trading with Ubuntu Harvests. ${DEFAULT_INQUIRY_MESSAGE}`)}
-            target="_blank"
-            rel="noopener noreferrer"
             className="btn-primary px-8 sm:px-12 py-3 sm:py-4 md:py-5 text-sm sm:text-base inline-block min-h-[44px]"
           >
             Request a Quote

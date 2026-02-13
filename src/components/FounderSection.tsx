@@ -34,12 +34,12 @@ const FounderSection = () => (
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
             His vision: connecting African farmers to UK, European, US, and global markets
             while ensuring environmental sustainability and community empowerment. Ayodeji 
-            has worked extensively with smallholder farming communities across Nigeria, 
+            has worked extensively with smallholder farming communities across Africa, 
             developing sustainable supply chains that prioritize farmer welfare and 
             environmental protection.
           </p>
           <div className="mt-4 sm:mt-6 space-y-2">
-            <p className="text-sm font-semibold text-foreground">Key Achievements:</p>
+            <p className="text-sm font-semibold text-foreground">Key Prospects:</p>
             <ul className="text-xs sm:text-sm text-muted-foreground space-y-1 list-disc list-inside text-left max-w-md mx-auto md:mx-0">
               <li>Established direct trade relationships with 500+ smallholder farmers</li>
               <li>Facilitated $2.5M+ in fair trade income to farming communities</li>

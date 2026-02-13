@@ -87,7 +87,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="max-w-2xl mx-auto text-white/90 mb-8 sm:mb-12 leading-relaxed text-base sm:text-lg drop-shadow-md px-4"
         >
-          From Nigerian farms to global markets — premium, ethically sourced agricultural
+          From African farms to global markets premium, ethically sourced agricultural
           produce built on sustainability, transparency, and community empowerment.
         </motion.p>
         <motion.div

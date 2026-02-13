@@ -7,8 +7,8 @@ const areas = [
   { icon: TreePine, title: "Environmental Protection", desc: "Zero-deforestation commitment and active reforestation partnerships across our sourcing regions." },
   { icon: Droplets, title: "Climate-Conscious Practices", desc: "Reducing carbon footprint through optimized logistics, low-impact processing, and responsible packaging." },
   { icon: Recycle, title: "Ethical Supply Chains", desc: "Full traceability from farm to port. No child labour, no exploitation, no shortcuts." },
-  { icon: Target, title: "SDG Alignment", desc: "Our operations directly support UN Sustainable Development Goals — including Zero Hunger, Decent Work, and Climate Action." },
-  { icon: Globe, title: "Global Responsibility", desc: "We believe African agriculture can feed the world sustainably — and we're proving it every day." },
+  { icon: Target, title: "SDG Alignment", desc: "Our operations directly support UN Sustainable Development Goals including Zero Hunger, Decent Work, and Climate Action." },
+  { icon: Globe, title: "Global Responsibility", desc: "We believe African agriculture can feed the world sustainably and we're proving it every day." },
 ];
 
 const Sustainability = () => (
@@ -28,7 +28,7 @@ const Sustainability = () => (
             The foundation of every decision we make
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
-            Sustainability isn't a label we attach — it's the foundation of every decision we make,
+            Sustainability isn't a label we attach it's the foundation of every decision we make,
             from the farms we partner with to the markets we serve. We believe that sustainable 
             agriculture is the only path forward. Our commitment extends beyond environmental 
             protection to include economic sustainability for farming communities, social justice 

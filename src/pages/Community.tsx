@@ -11,7 +11,7 @@ const pillars = [
   {
     icon: Heart,
     title: "Farmer Empowerment",
-    desc: "We invest in the autonomy and agency of smallholder farmers — providing tools, resources, and market access that put them in control of their livelihoods.",
+    desc: "We invest in the autonomy and agency of smallholder farmers providing tools, resources, and market access that put them in control of their livelihoods.",
   },
   {
     icon: GraduationCap,
@@ -21,7 +21,7 @@ const pillars = [
   {
     icon: Users,
     title: "Long-Term Community Impact",
-    desc: "From school sponsorships to clean water initiatives, Ubuntu Harvests reinvests in the communities that make our business possible. Shared prosperity is not a slogan — it's our model.",
+    desc: "From school sponsorships to clean water initiatives, Ubuntu Harvests reinvests in the communities that make our business possible. Shared prosperity is not a slogan it's our model.",
   },
 ];
 
@@ -46,7 +46,7 @@ const Community = () => (
             communities at the heart of everything we export.
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
-            We don't just source from communities — we invest in them. Through fair pricing, 
+            We don't just source from communities we invest in them. Through fair pricing, 
             training programs, infrastructure support, and community development initiatives, 
             we're building a model where agricultural trade creates lasting positive change.
           </p>
@@ -109,7 +109,7 @@ const Community = () => (
               <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">📚</div>
               <h4 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">Education Support</h4>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                We've sponsored school fees for over 200 children from farming families, 
+                We plan to sponsor school fees for children from farming families, 
                 ensuring that the next generation has access to education.
               </p>
               <p className="text-xs sm:text-sm text-primary font-semibold">Education is the foundation of long-term community development.</p>
@@ -136,25 +136,10 @@ const Community = () => (
               transition={{ delay: 0.9 }}
               className="bg-card rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow"
             >
-              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🏥</div>
-              <h4 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">Healthcare Access</h4>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                We organize regular health check-ups and provide basic healthcare support 
-                for farming communities.
-              </p>
-              <p className="text-xs sm:text-sm text-primary font-semibold">Healthy farmers mean sustainable agriculture.</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 1.0 }}
-              className="bg-card rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow"
-            >
               <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">👩‍🌾</div>
               <h4 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">Women's Empowerment</h4>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                Over 40% of our partner farmers are women. We provide specific training 
+                A significant portion of our partner farmers are women. We provide specific training 
                 and support programs for women farmers.
               </p>
               <p className="text-xs sm:text-sm text-primary font-semibold">Recognizing their crucial role in agricultural production and community leadership.</p>

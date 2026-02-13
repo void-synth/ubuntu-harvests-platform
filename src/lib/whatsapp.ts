@@ -1,15 +1,25 @@
-// WhatsApp contact information
-export const WHATSAPP_NUMBER = "+2348165073846"; // Nigeria number
-export const WHATSAPP_NUMBER_UK = "+447401324679"; // UK number
+// Email contact information
+export const COMPANY_EMAIL = "ubuntuharvests@gmail.com";
 
-// Generate WhatsApp link with optional pre-filled message
-export const getWhatsAppLink = (message?: string, number?: string) => {
-  const phoneNumber = number || WHATSAPP_NUMBER_UK; // Default to UK number for inquiries
-  const baseUrl = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, "")}`;
-  if (message) {
-    return `${baseUrl}?text=${encodeURIComponent(message)}`;
+// Generate email link with optional pre-filled subject and body
+export const getEmailLink = (subject?: string, body?: string) => {
+  const email = COMPANY_EMAIL;
+  const params = new URLSearchParams();
+  if (subject) {
+    params.append("subject", subject);
   }
-  return baseUrl;
+  if (body) {
+    params.append("body", body);
+  }
+  const queryString = params.toString();
+  return queryString ? `mailto:${email}?${queryString}` : `mailto:${email}`;
+};
+
+// Legacy function name for backward compatibility - now returns email link
+export const getWhatsAppLink = (message?: string, number?: string) => {
+  const subject = "Inquiry about Ubuntu Harvests";
+  const body = message || DEFAULT_INQUIRY_MESSAGE;
+  return getEmailLink(subject, body);
 };
 
 // Default inquiry message

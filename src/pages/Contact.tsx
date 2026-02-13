@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
-import { getWhatsAppLink, DEFAULT_INQUIRY_MESSAGE, WHATSAPP_NUMBER, WHATSAPP_NUMBER_UK } from "@/lib/whatsapp";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { getWhatsAppLink, DEFAULT_INQUIRY_MESSAGE, COMPANY_EMAIL } from "@/lib/whatsapp";
 
 const Contact = () => {
   return (
@@ -27,12 +27,10 @@ const Contact = () => {
             >
               <a
                 href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base min-h-[44px]"
               >
-                <MessageCircle className="w-5 h-5" />
-                Chat on WhatsApp
+                <Mail className="w-5 h-5" />
+                Send Email
               </a>
             </motion.div>
           </motion.div>
@@ -51,12 +49,10 @@ const Contact = () => {
                 </h3>
                 <p className="text-muted-foreground text-sm mb-2">No. 5, Ojoo, Oyo State, Nigeria</p>
                 <a
-                  href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE, WHATSAPP_NUMBER)}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:${COMPANY_EMAIL}`}
                   className="text-muted-foreground text-sm flex items-center gap-2 hover:text-primary transition-colors min-h-[44px]"
                 >
-                  <Phone className="w-3.5 h-3.5 shrink-0" /> {WHATSAPP_NUMBER}
+                  <Mail className="w-3.5 h-3.5 shrink-0" /> {COMPANY_EMAIL}
                 </a>
               </div>
 
@@ -66,12 +62,10 @@ const Contact = () => {
                 </h3>
                 <p className="text-muted-foreground text-sm mb-2">38 Rhyddings Park Road, Swansea, SA2 0AF, UK</p>
                 <a
-                  href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE, WHATSAPP_NUMBER_UK)}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:${COMPANY_EMAIL}`}
                   className="text-muted-foreground text-sm flex items-center gap-2 hover:text-primary transition-colors min-h-[44px]"
                 >
-                  <Phone className="w-3.5 h-3.5 shrink-0" /> {WHATSAPP_NUMBER_UK}
+                  <Mail className="w-3.5 h-3.5 shrink-0" /> {COMPANY_EMAIL}
                 </a>
               </div>
 
@@ -96,29 +90,27 @@ const Contact = () => {
               </div>
             </motion.div>
 
-            {/* WhatsApp CTA */}
+            {/* Email CTA */}
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 }}
               className="bg-card rounded-xl p-6 sm:p-8 shadow-sm text-center"
             >
-              <MessageCircle className="w-12 h-12 sm:w-16 sm:h-16 text-primary mx-auto mb-4" />
+              <Mail className="w-12 h-12 sm:w-16 sm:h-16 text-primary mx-auto mb-4" />
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-foreground mb-3">
-                Get in Touch via WhatsApp
+                Get in Touch via Email
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                For the fastest response, contact us directly on WhatsApp. We're available to answer 
-                your questions, provide quotes, and discuss partnership opportunities.
+                We're available to answer your questions, provide quotes, and discuss partnership opportunities. 
+                Send us an email and we'll get back to you as soon as possible.
               </p>
               <a
                 href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base min-h-[44px]"
               >
-                <MessageCircle className="w-5 h-5" />
-                Start WhatsApp Chat
+                <Mail className="w-5 h-5" />
+                Send Email
               </a>
             </motion.div>
           </div>

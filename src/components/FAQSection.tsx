@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "How long does shipping take?",
-    answer: "Shipping times vary by destination. From Nigerian ports to UK/EU ports typically takes 14-21 days. To US East Coast ports, expect 21-28 days. We handle all export documentation and customs clearance. Exact timelines depend on shipping routes, port congestion, and destination country customs processing.",
+    answer: "Shipping times vary by destination. From African ports to UK/EU ports typically takes 14-21 days. To US East Coast ports, expect 21-28 days. We handle all export documentation and customs clearance. Exact timelines depend on shipping routes, port congestion, and destination country customs processing.",
   },
   {
     question: "Do you offer organic-certified products?",
@@ -116,11 +116,9 @@ const FAQSection = () => {
           </p>
           <a
             href={getWhatsAppLink(DEFAULT_INQUIRY_MESSAGE)}
-            target="_blank"
-            rel="noopener noreferrer"
             className="btn-primary inline-block px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base min-h-[44px]"
           >
-            Contact Us on WhatsApp
+            Contact Us via Email
           </a>
         </motion.div>
       </div>

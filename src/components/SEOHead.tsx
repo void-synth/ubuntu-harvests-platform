@@ -11,9 +11,9 @@ const SEOHead = ({ title, description, image }: SEOHeadProps) => {
   const location = useLocation();
 
   useEffect(() => {
-    const defaultTitle = "Ubuntu Harvests | Ethical Agricultural Trade from Nigeria";
+    const defaultTitle = "Ubuntu Harvests | Ethical Agricultural Trade from Africa";
     const defaultDescription =
-      "Premium, ethically sourced Nigerian agricultural produce. Connecting African farmers to global markets through sustainability, transparency, and community empowerment.";
+      "Premium, ethically sourced African agricultural produce. Connecting African farmers to global markets through sustainability, transparency, and community empowerment.";
     const defaultImage = "/placeholder.svg";
 
     document.title = title || defaultTitle;

@@ -3,7 +3,7 @@ import { Quote, Star } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Ubuntu Harvests has been our trusted partner for premium Nigerian hibiscus for over two years. Their commitment to quality and ethical sourcing aligns perfectly with our brand values. The consistency and traceability they provide is unmatched.",
+    quote: "Ubuntu Harvests has been our trusted partner for premium African hibiscus for over two years. Their commitment to quality and ethical sourcing aligns perfectly with our brand values. The consistency and traceability they provide is unmatched.",
     author: "Sarah Mitchell",
     role: "Procurement Director",
     company: "European Health Foods Ltd",
@@ -19,7 +19,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    quote: "The quality of their sesame seeds is exceptional, and their ethical standards give us confidence in our sourcing. We've seen the impact reports — real farmers, real communities, real change. That matters to our customers.",
+    quote: "The quality of their sesame seeds is exceptional, and their ethical standards give us confidence in our sourcing. We've seen the impact reports real farmers, real communities, real change. That matters to our customers.",
     author: "Emma Thompson",
     role: "Sustainability Manager",
     company: "Artisan Foods Group",
