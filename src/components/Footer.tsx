@@ -63,7 +63,12 @@ const Footer = () => (
             Contact
           </h4>
           <div className="space-y-2 text-sm text-primary-foreground/80">
-            <p className="break-all">ubuntuharvests@gmail.com</p>
+            <a 
+              href="mailto:ubuntuharvests@gmail.com" 
+              className="break-all hover:text-primary-foreground transition-colors underline"
+            >
+              ubuntuharvests@gmail.com
+            </a>
             <p className="break-words">🇳🇬 +234 816 507 3846</p>
             <p className="break-words">🇬🇧 +44 7401324679</p>
           </div>
