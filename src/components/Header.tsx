@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Trade", path: "/trade" },
   { label: "Community", path: "/community" },
   { label: "Sustainability", path: "/sustainability" },
+  { label: "Contact", path: "/contact" },
 ];
 
 const Header = () => {
