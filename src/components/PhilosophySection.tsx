@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart, Leaf, Shield, Handshake } from "lucide-react";
+import { Heart, Leaf, Shield } from "lucide-react";
 
 const values = [
   {
@@ -16,11 +16,6 @@ const values = [
     icon: Shield,
     title: "Zero Child Labour",
     desc: "Strict commitment to ethical labour and community development.",
-  },
-  {
-    icon: Handshake,
-    title: "Direct Trade",
-    desc: "Removing middlemen to give farmers fair access to global markets.",
   },
 ];
 

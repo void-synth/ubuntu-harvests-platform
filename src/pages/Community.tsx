@@ -83,69 +83,6 @@ const Community = () => (
           </div>
         </div>
 
-        {/* Impact Stories - Enhanced Layout */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
-          className="max-w-5xl mx-auto"
-        >
-          <div className="text-center mb-8 sm:mb-12 px-4">
-            <h3 className="text-3xl sm:text-4xl font-serif font-bold text-foreground mb-3 sm:mb-4">
-              Community Impact Stories
-            </h3>
-            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Real stories of transformation from the communities we serve
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.7 }}
-              className="bg-card rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow"
-            >
-              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">📚</div>
-              <h4 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">Education Support</h4>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                We plan to sponsor school fees for children from farming families, 
-                ensuring that the next generation has access to education.
-              </p>
-              <p className="text-xs sm:text-sm text-primary font-semibold">Education is the foundation of long-term community development.</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.8 }}
-              className="bg-card rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow"
-            >
-              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">💧</div>
-              <h4 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">Clean Water Initiatives</h4>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                In partnership with local communities, we've supported the construction 
-                of clean water wells in three farming regions.
-              </p>
-              <p className="text-xs sm:text-sm text-primary font-semibold">Providing access to safe drinking water for over 1,500 people.</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.9 }}
-              className="bg-card rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow"
-            >
-              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">👩‍🌾</div>
-              <h4 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">Women's Empowerment</h4>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                A significant portion of our partner farmers are women. We provide specific training 
-                and support programs for women farmers.
-              </p>
-              <p className="text-xs sm:text-sm text-primary font-semibold">Recognizing their crucial role in agricultural production and community leadership.</p>
-            </motion.div>
-          </div>
-        </motion.div>
       </div>
     </section>
   </Layout>
